@@ -9,3 +9,11 @@ h1 {
 h1 {
   color: #32616F;
 }
+body {
+  background-image: url("https://www.smartbusinessinsurance.com.au/images/Allied-Health-Professionals.jpg?v=1");
+  background-repeat: no-repeat;
+    background-position: 513 293;
+    background-size: 700px 377px;
+    
+  background-color: #cccccc;
+}
