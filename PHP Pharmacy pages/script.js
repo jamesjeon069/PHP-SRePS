@@ -11,9 +11,9 @@ function button2_click()
 function button3_click()
 {
 window.open("stocklist.html");
-}
+};
 
-function button4_click()
-{
-window.open("viewsalesreport.html");
-}
+var button4 = document.getElementById("button4");
+button4.addEventListener("click",function(){
+	window.open("viewsalesreport.html");
+});
