@@ -1,26 +1,38 @@
 <!Doctype html>
 <html lang="en">
 <head>
-<meta charset ="utf-8">
-<style>
-fieldset {background-color: lightgrey;}
-</style>
+	<meta charset ="utf-8">
+	<link rel="stylesheet" href="./add_item.css">
 </head>
 <body>
-<fieldset>
-<legend><h2> Add Details</h2></legend>
-<p><label>Item Name :</label>
-<input type="text" name="fname"/></p>
-<p><label> Date :</label>
-<input type="date" name="date"/></p>
-<p><label>Quantity :</label>
-<input type="text" name="fname"/></p>
-<p>
-<button style="background-color: lightyellow;" type="submit" value="Submit">Submit</button>
-
-<button style="background-color: lightyellow;" type="cancel" value="Cancel">Cancel</button></p>
-
-</fieldset>
-
+	<h1> Add Details</h1>
+		<form class="form-container">
+			<div class="form-item item-left">
+				<label>Item Name </label>
+			</div>
+			<div class="form-item item-right"">
+				<input type="text" name="fname"/>
+			</div>	
+			<div class="form-item item-left">
+				<label> Date </label>
+			</div>
+			<div class="form-item item-right"">	
+				<input type="text" name="" value="">
+			</div>
+			<div class="form-item item-left">
+				<label>Quantity </label>
+			</div>
+			<div class="form-item item-right"">	
+				<input type="text" name="fname"/>
+			</div>
+			<div class="btn-container">
+				<div class="btn-item">
+					<input type="button" value="Cancel">
+				</div>
+				<div class="btn-item">
+					<input type="submit" value="Submit">
+				</div>
+			</div>
+		</form>
 </body>
 </html>
