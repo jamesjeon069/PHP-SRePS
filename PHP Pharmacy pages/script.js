@@ -4,7 +4,7 @@
 
 var button1 = document.getElementById("addsales");
 button1.addEventListener("click",function(){
-	window.open("product_details.html");
+	window.open("add_sale.html");
 });
 
 
@@ -32,7 +32,7 @@ button4.addEventListener("click",function(){
                //----------------------Main page----------------//
 
 function button1_click(){
-window.open("product_details.html");
+window.open("add_sale.html");
 //alert("hai");
 }
 
@@ -56,7 +56,7 @@ window.open("viewsalesreport.html");
                   //----------------------stock page----------------//
 
 function button5_click(){
-window.open("product_details.html");
+window.open("add_sale.html");
 //alert("hai");
 }
 
