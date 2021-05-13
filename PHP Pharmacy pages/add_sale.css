@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*. *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 50px;
+  height: 55vh
+}
+
+header h1 {
+  text-align: left; font-size: 30;
+  color: #fb3640;
+}
+
+header .company-logo {
+  width: 25%;
+  min-width: 20%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bolder;
+  position: relative;
+  margin-top: -30px;
+}
+
+aside {
+  margin-bottom: 5px;
+}
+
+aside .btn {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  transition: 0.5s;
+}
+
+aside .btn:hover {
+  background-color: #fb3640;
+  color: #FFF;
+  transform: translate(5px,-2px);
+}
+
+main {
+  height: 70vh;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 62vw 6vw 6vw 6vw;
+  justify-content: flex-start;
+}
+.grid-item {
+  padding: 20px;
+  margin-top: 10px;
+}
+.grid-item input {
+  width: 60vw;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.grid-item button {
+  padding: 7px;
+  width: 80px;
+  border: none;
+  transition: 0.5s;
+}
+
+.grid-item button:hover {
+  background-color: #fb3640;
+  color: #FFF;
+  transform: translate(5px,-2px);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between !important;
+  width: 166px;
+  margin-top:10px;
+  margin-left:78.345vw;
+}
+
+.btn-item {
+  width:50px;
+  margin-bottom:10px;
+}
+
+.btn-item input {
+  width: 100px;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  background-color: #ffb26b;
+  transition: transform 0.5s;
+}
+
+.btn-item input:hover {
+  background-color: #f7a440;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .grid-container {
+    display: block;
+  }
+  .grid-item {
+    display: inline-block;
+    padding: 5px;
+  }
+  .grid-item input {
+    width: 75vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .grid-container {
+    display: block;
+    margin-left: 10px;
+  }
+  .grid-item {
+    display: inline;
+  }
+  .grid-item input {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 80vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and below) */
+@media only screen and (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: 330px 90px 90px 90px 90px 80px;
+  }
+  .grid-item input {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 590px 90px 90px 90px 90px 80px;
+  }
+  .grid-item input {
+    width: 750px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1450px and below) */
+@media only screen and (min-width: 1450px) {
+  .grid-container {
+    grid-template-columns: 52vw 6vw 6vw 6vw 6vw 6vw;
+  }
+  .grid-item input {
+    width: 950px;
+  }
+}

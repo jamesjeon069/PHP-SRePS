@@ -2,63 +2,168 @@
 <html lang="en">
 <head>
 <meta charset ="utf-8">
-<h1 style="color:red;"> Add Sales</h1>
-<style>
-fieldset {background-color: lightgrey;
-position:relative;
-height:400px;
-width:1220px;
-}
-footer {
-position: absolute;
-left: 1100px;
-right: 0px;
-bottom: 40px;
-font-size: 16px;
-}
-
-</style>
+    <link rel="stylesheet" href="./add_sale.css">
+    <title>Add Sales</title>
 </head>
-<div class="button">
-<button style="background-color: lightyellow;">Add Sales</button>
-<button style="background-color: lightyellow;">Sale record</button>
-<button style="background-color: lightyellow;">Stock List</button>
-<button style="background-color: lightyellow;">View Sales Report</button>
-</div>
-
 <body>
-<fieldset>
-<p><button style="width:1000px;">Add Item</button>
-<button style="background-color: lightblue;" >Quantity</button>
-<button style="background-color: lightblue;" >Date</button>
-<button style="background-color: lightblue;">Edit</button>
-<button style="background-color: lightblue;">Delete</button></p>
-<p>
-<button style="width:1000px;">Add Item</button>
-<button style="background-color: lightblue;" >Quantity</button>
-<button style="background-color: lightblue;" >Date</button>
-<button style="background-color: lightblue;">Edit</button>
-<button style="background-color: lightblue;">Delete</button></p>
-
-<p><button style="width:1000px;">Add Item</button>
-<button style="background-color: lightblue;" >Quantity</button>
-<button style="background-color: lightblue;" >Date</button>
-<button style="background-color: lightblue;">Edit</button>
-<button style="background-color: lightblue;">Delete</button></p>
-
-<p><button style="width:1000px;">Add Item</button>
-<button style="background-color: lightblue;" >Quantity</button>
-<button style="background-color: lightblue;" >Date</button>
-<button style="background-color: lightblue;">Edit</button>
-<button style="background-color: lightblue;">Delete</button></p>
-
-
-<footer>
-<p>
-<button style="background-color: lightyellow;"  type="reset" value="reset">Add Item</button>
-<button  style="background-color: lightyellow;"type="submit" value="Submit">Submit</button>
-</p>
-</footer>
+	<header>
+      <div class="company-logo">
+        <p>PHP Inc</p>
+      </div>
+      <h1>Add Sales</h1>
+    </header>
+    <aside>
+      <button type="button" class="btn" id = "addsales">Add Sales</button>
+      <button type="button" class="btn" id = "salesrecords">Sales Records</button>
+      <button type="button" class="btn" id = "stocklist">Stock List</button>
+      <button type="button" class="btn" id = "viewsalesreport">View Sales Report</button>
+    </aside>
+	<main>
+      <div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div>
+      <div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>        
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div><div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div>
+      <div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>      
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div><div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div>
+      <div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div> 
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div>
+      <div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div>
+      <div class="grid-container">
+		<div class="grid-item">
+          <input type="text" value="" placeholder="Item Name">
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Quantity</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Date/Time</button>
+        </div>
+		<div class="grid-item">
+          <button type="button" name="button">Edit</button>
+        </div>
+        <div class="grid-item">
+          <button type="button" name="button">Delete</button>
+        </div>
+      </div>
+	</main>
+		<div class="btn-container">
+			<div class="btn-item">
+			  <input type="button" value="Add Item">
+			</div>
+			<div class="btn-item">
+			  <input type="submit" value="Submit">
+			</div>
+		</div>
+    </form>
+	<script src="script.js"></script>
 </body>
 </fieldset>
 
