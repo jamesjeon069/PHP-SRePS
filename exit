@@ -1,0 +1,254 @@
+[33mcommit 71e20dd0618cc59f35f4263f5d6370a878573ca7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Fri May 14 13:00:53 2021 +1000
+
+    Revert "Revert "Merge branch 'main' of https://github.com/jamesjeon069/PHP-SRePS into main""
+    
+    This reverts commit 427e1d5db51f81190777f937d1b17426b5347923.
+
+[33mcommit 427e1d5db51f81190777f937d1b17426b5347923[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Fri May 14 12:39:02 2021 +1000
+
+    Revert "Merge branch 'main' of https://github.com/jamesjeon069/PHP-SRePS into main"
+    
+    This reverts commit 1a8df624ccca616c1ede4a143cbc5f049bf68f71, reversing
+    changes made to 5c38ad19f4aefdae8ac3babe4f3ede3ee29a7c6b.
+
+[33mcommit 1b5b344639f0cdabf54b93fa9d48dbfa5f398636[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Fri May 14 12:33:54 2021 +1000
+
+    Authorization
+    
+    tidy up
+
+[33mcommit f82c7a3d3dff841908cf8bb3f683dd75053062f2[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Thu May 13 15:05:52 2021 +1000
+
+    Add Sale CSS implementation
+
+[33mcommit 1a8df624ccca616c1ede4a143cbc5f049bf68f71[m
+Merge: 5c38ad1 2c58fb0
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Wed May 12 22:48:44 2021 +1000
+
+    Merge branch 'main' of https://github.com/jamesjeon069/PHP-SRePS into main
+
+[33mcommit 5c38ad19f4aefdae8ac3babe4f3ede3ee29a7c6b[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Wed May 12 22:48:18 2021 +1000
+
+    Update script.js
+    
+    add sales change
+
+[33mcommit 2c58fb0316b1e5ca86afd70bcc9bba8dfeb8d2bf[m
+Author: DeepAnmol <83440404+DeepAnmol@users.noreply.github.com>
+Date:   Wed May 12 22:40:10 2021 +1000
+
+    Add files via upload
+
+[33mcommit ae07fe16d3e5e9df007b87af8ad78a274b4b06c5[m
+Author: DeepAnmol <83440404+DeepAnmol@users.noreply.github.com>
+Date:   Wed May 12 22:35:50 2021 +1000
+
+    Add files via upload
+
+[33mcommit 234d3d919bb6644bdffc352f1c33f2015cb3a558[m
+Author: DeepAnmol <83440404+DeepAnmol@users.noreply.github.com>
+Date:   Wed May 12 22:33:25 2021 +1000
+
+    Add files via upload
+
+[33mcommit a4375466d87219268f5b0a261947f50ad45f2565[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Wed May 12 00:16:20 2021 +1000
+
+    Final modification
+    
+    H1 value changed
+
+[33mcommit 59021d390ca160f36fd5baaf31920ddfd2a81458[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Wed May 12 00:14:51 2021 +1000
+
+    Title of the web page added
+    
+    Title was missing, added
+
+[33mcommit 744760d839b7454a85675e285cf792a5a542ae76[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Wed May 12 00:05:39 2021 +1000
+
+    Add Item pages (html + CSS)
+    
+    Slight modification in HTML file (<form> tag added for future incorporation with DB)
+    CSS implemented based on Product details html
+
+[33mcommit 6a590220f9d406fbc932277b3d2e99ebdf8038df[m
+Author: InstantMuffin <muffininstant@gmail.com>
+Date:   Mon May 10 23:20:12 2021 +1000
+
+    Added add_item and add_sale html
+
+[33mcommit ee573041b8e309989bc38b68e8625e15587e941c[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Mon May 10 22:22:01 2021 +1000
+
+    Delete stocklist.html
+
+[33mcommit 5f72e8e2f6b35313c8742f4b0f3e435756c14c80[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Mon May 10 22:21:51 2021 +1000
+
+    Delete salesrecord.html
+
+[33mcommit 09a4a3fb428aebcc70c091e3867ee3f745fe923c[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Mon May 10 01:01:36 2021 +1000
+
+    Delete addsales.html
+    
+    unused files removed to make it clean
+
+[33mcommit 2084a000848ec21de2728bf1c943d5b98ce3e376[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Mon May 10 00:58:01 2021 +1000
+
+    Javascript implementation Done--- all navigatiion buttons are functional
+    
+    Javascript implementation Done--- all navigation buttons are functional
+
+[33mcommit cebc98cd8f1ce8054c9766174a59fbfbe9eb6894[m
+Merge: aed7ef6 e42d18b
+Author: 101571578 <69559502+101571578@users.noreply.github.com>
+Date:   Sun May 9 23:05:49 2021 +1000
+
+    Merge pull request #1 from jamesjeon069/Elham-SalesRecords_StockList_ProductDetails
+    
+    Add files via upload
+
+[33mcommit e42d18bbf01a939c04b8cfca10e87fd4afeb4cca[m[33m ([m[1;31morigin/Elham-SalesRecords_StockList_ProductDetails[m[33m, [m[1;32mElham-SalesRecords_StockList_ProductDetails[m[33m)[m
+Author: 101571578 <69559502+101571578@users.noreply.github.com>
+Date:   Sun May 9 23:03:39 2021 +1000
+
+    Add files via upload
+    
+    Elham Created Sales Records Page, Stock List Page and Product Details Page
+
+[33mcommit aed7ef66fb5cc65a1e37b1a7707f2fec4a216999[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sun May 9 12:17:09 2021 +1000
+
+    Update php.html
+    
+    working buttons js file linked
+
+[33mcommit d764bf0e2d2bf659535a57220d275982bf133f07[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sun May 9 11:55:28 2021 +1000
+
+    Javascriiipt best practice--- better way
+    
+    Javascriiipt best practice--- better way
+
+[33mcommit 1c94c77c6987e1f02f7b45447ae72bdbff7d4d97[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sun May 9 11:51:30 2021 +1000
+
+    Javascript best practice- better way
+    
+    Javascript best practice - better way
+
+[33mcommit f3608f6ab5bfce1b1accab002f4a5fa287ab5c89[m
+Merge: 04da73a 4947b2a
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sun May 9 01:10:20 2021 +1000
+
+    Merge branch 'main' of https://github.com/jamesjeon069/PHP-SRePS into main
+
+[33mcommit 04da73a1bb2dc2b9afe72f73d264c01e4f0e3398[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sun May 9 01:09:49 2021 +1000
+
+    PHP Pages Home page
+    
+    Home Page
+
+[33mcommit 4947b2acb55259d408b27e3adff51dcc50cacf6e[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sun May 9 00:49:49 2021 +1000
+
+    Rename new.html to Home.html
+
+[33mcommit 166cb59db62655a3c579f5a2e8635d55e01b4f2a[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sat May 8 23:42:27 2021 +1000
+
+    PHP pharmacy pages
+    
+    PHP pharmacy pages
+
+[33mcommit 6c27433433a86db7494cd2a991d842bf0bb8c300[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sat May 8 23:34:07 2021 +1000
+
+    image
+    
+    thanks
+
+[33mcommit 1742c95ef67fce435cb5e408280936bdbd9b08c3[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sat May 8 23:30:23 2021 +1000
+
+    great css animation
+    
+     That was a nice design created by James in CSS. great animation. I added the javascript file so buttons functional.
+
+[33mcommit 21890bea5ef8cc50071f22fea43ee622d1f921c6[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Sat May 8 21:51:39 2021 +1000
+
+    yyy
+
+[33mcommit 7688470747f8e54fa0b486f992f6f5631b5c8d79[m[33m ([m[1;32mbrath-FRONT-PAGE[m[33m)[m
+Author: jamesjeon069 <62127504+jamesjeon069@users.noreply.github.com>
+Date:   Sat May 8 20:02:14 2021 +1000
+
+    Add files via upload
+    
+    CSS and HTML implementation of Home page
+
+[33mcommit 67a17233c589377331dacfa7144bed7bcd78d66f[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Thu May 6 17:04:12 2021 +1000
+
+    Front page - Brathaban
+    
+    front page brathaban
+
+[33mcommit b9cfa3afe53ce887eebb7a99dcd79fbb029c456f[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Thu May 6 13:31:26 2021 +1000
+
+    latest homepage by brath
+    
+    latest homepage by brathaban
+    Thanks
+
+[33mcommit 72ea3e255acabbcbdc1618b5a34f18a466a11fe4[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Thu May 6 13:19:04 2021 +1000
+
+    front page latest from Brathaban
+
+[33mcommit 021005b648d1aa5d3f8d2fd0f769cfa1e3b866a8[m
+Author: 102550264Brathaban <69609273+102550264Brathaban@users.noreply.github.com>
+Date:   Thu May 6 12:30:13 2021 +1000
+
+    Brathaban design front page
+    
+    yes so I have designed the front page.
+    Thanks
