@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 50px;
+  height: 55vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+.item-right input {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.item-left {
+  text-align: center;
+  align-self: center;
+  padding: 5px;
+  border: 2px solid black;
+  font-size: 20px;
+}
+
+.form-text-area textarea {
+  width: 450px !important;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between !important;
+  width: 420px;
+}
+
+.btn-item {
+  width: 50px;
+}
+
+.btn-item input {
+  width: 100px;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  background-color: #ffb26b;
+  transition: transform 0.5s;
+}
+
+.btn-item input:hover {
+  background-color: #f7a440;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1536px) {
+  .form-text-area textarea {
+    width: 460px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .form-text-area textarea {
+    width: 460px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .form-text-area textarea {
+    width: 460px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .form-text-area textarea {
+    width: 460px !important;
+  }
+}

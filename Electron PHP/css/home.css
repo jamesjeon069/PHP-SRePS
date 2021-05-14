@@ -1,0 +1,24 @@
+.button {
+  /*class for nav*/
+  padding-top: 3.5em;
+}
+button {
+  height: 8%;
+  width: 25%;
+  min-width: 10%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  color: #32616f;
+  font-weight: bold;
+  background-color: #cccccc;
+  text-shadow: grey 1.5px 1.5px 1.5px;
+  font-size: 20px;
+  border-color: grey;
+}
+button:hover {
+  background-color: #f3f2f2;
+  border-radius: 50%;
+  color: #0077b3;
+}

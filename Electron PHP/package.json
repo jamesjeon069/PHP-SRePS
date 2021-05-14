@@ -1,0 +1,14 @@
+{
+  "name": "project_pharacy",
+  "version": "1.0.0",
+  "description": "project_pharacy",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sachin De Silva",
+  "license": "NIC",
+  "dependencies": {
+    "electron": "^11.2.0"
+  }
+}
